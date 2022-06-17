@@ -21,9 +21,7 @@ Run
 
     $ docker pull xanderhendriks/stlink:1.0
 
-    $ docker run -it --rm --name stlink \
-        -v c:\GIT\repo:/workspace \
-        xanderhendriks/stlink:1.0
+    $ docker run -it --privileged --rm --name stlink xanderhendriks/stlink:1.0
 
 
 Help

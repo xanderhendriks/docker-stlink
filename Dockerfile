@@ -14,4 +14,5 @@ RUN git clone -b v1.7.0 https://github.com/stlink-org/stlink.git && \
     cd stlink && \
     make clean && \
     make release && \
-    make install
+    make install && \
+    ldconfig
